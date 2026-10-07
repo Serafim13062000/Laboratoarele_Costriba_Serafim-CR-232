@@ -1,0 +1,283 @@
+{
+  "homeScreen": {
+    "user": {
+      "name": "Serafim",
+      "greeting": "Hi, Serafim",
+      "subtitle": "May you always be healthy!",
+      "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=240&q=80"
+    },
+    "notifications": {
+      "hasUnread": true
+    },
+    "search": {
+      "hint": "Search doctor, specialty, or clinic..."
+    },
+    "appointment": {
+      "title": "Appointment",
+      "date": "24 October, 2026",
+      "time": "09:30 AM - 11:00 AM",
+      "doctor": {
+        "name": "Dr. Richar Kandowen",
+        "specialty": "Child Specialist",
+        "avatarUrl": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=240&q=80"
+      }
+    },
+    "healthServices": [
+      {
+        "id": "tooth",
+        "name": "Tooth",
+        "iconUrl": "https://api.iconify.design/mdi/tooth-outline.svg?color=%23FF6B6B&width=64"
+      },
+      {
+        "id": "eye",
+        "name": "Eye",
+        "iconUrl": "https://api.iconify.design/mdi/eye-outline.svg?color=%232F8FA8&width=64"
+      },
+      {
+        "id": "lungs",
+        "name": "Lungs",
+        "iconUrl": "https://api.iconify.design/mdi/lungs.svg?color=%23FF6B6B&width=64"
+      },
+      {
+        "id": "ear",
+        "name": "Ear",
+        "iconUrl": "https://api.iconify.design/mdi/ear-hearing.svg?color=%23FFB36B&width=64"
+      },
+      {
+        "id": "heart",
+        "name": "Heart",
+        "iconUrl": "https://api.iconify.design/mdi/heart-pulse.svg?color=%23E63946&width=64"
+      },
+      {
+        "id": "brain",
+        "name": "Brain",
+        "iconUrl": "https://api.iconify.design/mdi/brain.svg?color=%236C5CE7&width=64"
+      }
+    ],
+    "nearbyDoctors": [
+      {
+        "id": "doctor-001",
+        "name": "Dr. Emmly Lestiryno",
+        "specialty": "General Practitioner",
+        "distance": "0.5 km - 3167 Durgan Shores",
+        "avatarUrl": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=240&q=80",
+        "isFavorite": true
+      },
+      {
+        "id": "doctor-002",
+        "name": "Dr. Sonja Litel",
+        "specialty": "Dental Specialist",
+        "distance": "0.7 km - 950 Sigrid Port",
+        "avatarUrl": "https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=240&q=80",
+        "isFavorite": false
+      },
+      {
+        "id": "doctor-003",
+        "name": "Dr. Marcus Vance",
+        "specialty": "Ophthalmologist (Eye)",
+        "distance": "0.9 km - 1422 Willow Creek Road",
+        "avatarUrl": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=240&q=80",
+        "isFavorite": false
+      },
+      {
+        "id": "doctor-004",
+        "name": "Dr. Elena Rostova",
+        "specialty": "Pulmonologist (Lungs)",
+        "distance": "1.2 km - 58 Central Medical Plaza",
+        "avatarUrl": "https://images.unsplash.com/photo-1594824813571-638f026361a6?auto=format&fit=crop&w=240&q=80",
+        "isFavorite": true
+      },
+      {
+        "id": "doctor-005",
+        "name": "Dr. Arthur Pendelton",
+        "specialty": "ENT Specialist (Ear)",
+        "distance": "1.4 km - 834 Highland Avenue",
+        "avatarUrl": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=240&q=80",
+        "isFavorite": false
+      },
+      {
+        "id": "doctor-006",
+        "name": "Dr. Clara Moreau",
+        "specialty": "Cardiologist (Heart)",
+        "distance": "1.8 km - 210 Grand Boulevard",
+        "avatarUrl": "https://images.unsplash.com/photo-1527613426441-4da17471b66d?auto=format&fit=crop&w=240&q=80",
+        "isFavorite": false
+      },
+      {
+        "id": "doctor-007",
+        "name": "Dr. Lucas Sterling",
+        "specialty": "Neurologist (Brain)",
+        "distance": "2.1 km - 77 NeuroHealth Center",
+        "avatarUrl": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=240&q=80",
+        "isFavorite": false
+      },
+      {
+        "id": "doctor-008",
+        "name": "Dr. Hannah Abbott",
+        "specialty": "Dental Specialist",
+        "distance": "2.4 km - 418 Pearl Smile Clinic",
+        "avatarUrl": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=240&q=80",
+        "isFavorite": false
+      },
+      {
+        "id": "doctor-009",
+        "name": "Dr. Samuel O'Connor",
+        "specialty": "General Practitioner",
+        "distance": "2.8 km - 902 Sunset Parkway",
+        "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=240&q=80",
+        "isFavorite": false
+      },
+      {
+        "id": "doctor-010",
+        "name": "Dr. Victoria Chang",
+        "specialty": "Ophthalmologist (Eye)",
+        "distance": "3.1 km - 65 ClearVision Tower",
+        "avatarUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=240&q=80",
+        "isFavorite": true
+      },
+      {
+        "id": "doctor-011",
+        "name": "Dr. Gabriel Santos",
+        "specialty": "Pulmonologist (Lungs)",
+        "distance": "3.5 km - 104 Hope Respiratory Care",
+        "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=240&q=80",
+        "isFavorite": false
+      },
+      {
+        "id": "doctor-012",
+        "name": "Dr. Natalie Wood",
+        "specialty": "ENT Specialist (Ear)",
+        "distance": "4.0 km - 312 Harmony Health",
+        "avatarUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=240&q=80",
+        "isFavorite": false
+      },
+      {
+        "id": "doctor-013",
+        "name": "Dr. Liam Gallagher",
+        "specialty": "Cardiologist (Heart)",
+        "distance": "4.6 km - 501 St. Mary Hospital",
+        "avatarUrl": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=240&q=80",
+        "isFavorite": false
+      },
+      {
+        "id": "doctor-014",
+        "name": "Dr. Beatrice Bell",
+        "specialty": "Neurologist (Brain)",
+        "distance": "5.3 km - 88 Synapse Pavilion",
+        "avatarUrl": "https://images.unsplash.com/photo-1548142813-c348350df52b?auto=format&fit=crop&w=240&q=80",
+        "isFavorite": false
+      }
+    ]
+  },
+  "appointmentDetails": {
+    "title": "Appointment",
+    "doctor": {
+      "name": "Dr. Upul Karunaratne",
+      "clinic": "Denteeth & Implant Specialty Center",
+      "avatarUrl": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?auto=format&fit=crop&w=400&q=80",
+      "actions": {
+        "message": true,
+        "call": true,
+        "videoCall": true
+      }
+    },
+    "payment": {
+      "label": "Payment",
+      "amount": 120.0,
+      "currency": "USD",
+      "formatted": "$120.00"
+    },
+    "details": {
+      "title": "Details",
+      "description": "Dr. Upul Karunaratne is a senior dental and maxillo-facial specialist with over 14 years of clinical experience. He specializes in preventative dental care, dental aesthetics, periodontal surgeries, and complex orthodontic alignments. Certified by the European Academy of Esthetic Dentistry."
+    },
+    "workingHours": {
+      "title": "Working Hours",
+      "showAll": true,
+      "slots": [
+        {
+          "id": "08am",
+          "label": "08.00 AM",
+          "selected": false
+        },
+        {
+          "id": "09am",
+          "label": "09.00 AM",
+          "selected": false
+        },
+        {
+          "id": "10am",
+          "label": "10.00 AM",
+          "selected": false
+        },
+        {
+          "id": "11am",
+          "label": "11.00 AM",
+          "selected": true
+        },
+        {
+          "id": "12pm",
+          "label": "12.00 PM",
+          "selected": false
+        },
+        {
+          "id": "02pm",
+          "label": "02.00 PM",
+          "selected": false
+        },
+        {
+          "id": "03pm",
+          "label": "03.00 PM",
+          "selected": false
+        },
+        {
+          "id": "04pm",
+          "label": "04.00 PM",
+          "selected": false
+        }
+      ]
+    },
+    "date": {
+      "title": "Date",
+      "showAll": true,
+      "slots": [
+        {
+          "id": "sat-3",
+          "label": "Sat 3",
+          "selected": false
+        },
+        {
+          "id": "sun-4",
+          "label": "Sun 4",
+          "selected": true
+        },
+        {
+          "id": "mon-5",
+          "label": "Mon 5",
+          "selected": false
+        },
+        {
+          "id": "tue-6",
+          "label": "Tue 6",
+          "selected": false
+        },
+        {
+          "id": "wed-7",
+          "label": "Wed 7",
+          "selected": false
+        },
+        {
+          "id": "thu-8",
+          "label": "Thu 8",
+          "selected": false
+        }
+      ]
+    },
+    "actions": {
+      "bookAppointment": {
+        "label": "Book an Appointment",
+        "enabled": true
+      }
+    }
+  }
+}
