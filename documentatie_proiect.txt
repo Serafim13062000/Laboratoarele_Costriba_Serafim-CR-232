@@ -1,0 +1,23 @@
+1. Fișierul Central
+- lib/main.dart: Punctul central de pornire a aplicației și configurarea Dependency Injection.
+
+2. Stratul Data (Acces la date și rețea)
+- lib/client_api_medical.dart: Integrare REST API pentru endpoint-urile /feed și /feed/details.
+- lib/repository_comunicare_medicala.dart: Preia datele de la serverul API cu fallback local din assets.
+- lib/modele_date_medicale.dart: Modele de date și serializarea/deserializarea JSON.
+- lib/models/appointment_data_model.dart: Entități de bază pentru doctori și servicii medicale.
+- lib/repositories/medical_repository.dart: Repository auxiliar pentru datele locale.
+
+3. Stratul Domain (Logică de business și calcule)
+- lib/calcule_logica_medicala.dart: Algoritmi de filtrare, căutare și sortare a doctorilor.
+
+4. Stratul Presentation (Interfață, stări și flux)
+- lib/cubit/medical_cubit.dart: Gestionează stările asincrone, rețeaua și acțiunile utilizatorului.
+- lib/cubit/medical_state.dart: Stările imutabile ale aplicației (Loading, Loaded, Error, etc.).
+- lib/gestionare_stari_medicale.dart: Gestionarea stărilor asincrone.
+- lib/flux_prezentare_medicala.dart: Orchestrează fluxul datelor între Cubit și UI.
+- lib/interfata_utilizator_medicala.dart: Exportă componentele UI reutilizabile.
+- lib/views/home_view.dart: Ecranul principal cu servicii și doctori apropiați.
+- lib/views/appointment_details_view.dart: Ecranul de detalii (afișează datele despre Dr. Upul).
+- lib/widgets/doctor_tile.dart: Card reutilizabil pentru doctori.
+- lib/widgets/no_internet_view.dart: Ecran afișat la pierderea conexiunii internet.
